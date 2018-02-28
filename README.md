@@ -4,6 +4,6 @@ A OpenGL game for AndroidTV
 
 
 
-###LICENSE NOTICE
+### LICENSE NOTICE
 This repository don't have an license yet
-(https://choosealicense.com/no-permission/#for-users)[click here] for more info
+[click here](https://choosealicense.com/no-permission/#for-users) for more info
