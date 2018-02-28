@@ -12,8 +12,6 @@ package com.silvano.AndGraph;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.welton.sbbg.game.CenaAbertura;
-import com.welton.sbbg.game.CenaGame;
 
 public class AGActivityGame extends Activity
 {
@@ -40,18 +38,6 @@ public class AGActivityGame extends Activity
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
-
-		//Alteração feita por mim
-		//Criação do gerente da aplicação
-		this.vrManager = new AGGameManager(this, true);
-
-		CenaAbertura abertura = new CenaAbertura(vrManager);
-		CenaGame menu = new CenaGame(vrManager);
-
-		vrManager.addScene(abertura);
-		vrManager.addScene(menu);
-
-
 	}
   
 	/*******************************************

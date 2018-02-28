@@ -16,6 +16,8 @@ package ninja.welton.game4tv
 
 import android.os.Bundle
 import com.silvano.AndGraph.AGActivityGame
+import com.silvano.AndGraph.AGGameManager
+import ninja.welton.game4tv.scenes.HomeMenu
 
 
 class MainActivity : AGActivityGame() {
@@ -23,6 +25,8 @@ class MainActivity : AGActivityGame() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        //Se não usar
+        vrManager = AGGameManager(this, true)
+
+        vrManager.addScene(HomeMenu(vrManager))
     }
 }
