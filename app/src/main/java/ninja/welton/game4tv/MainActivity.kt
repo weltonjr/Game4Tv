@@ -14,14 +14,15 @@
 
 package ninja.welton.game4tv
 
-import android.app.Activity
 import android.os.Bundle
+import com.silvano.AndGraph.AGActivityGame
 
 
-class MainActivity : Activity() {
+class MainActivity : AGActivityGame() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+        //Se não usar
     }
 }
